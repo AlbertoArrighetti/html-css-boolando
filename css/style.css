@@ -42,9 +42,8 @@ nav .nav-bar .logo{
 }
 nav .nav-bar .icons{
     color: white;
+    /* to fix  */
 }
-
-
 /* fine header */
 
 
@@ -61,17 +60,67 @@ nav .nav-bar .icons{
     display: flex;
     justify-content: center;
     gap: 20px;
-
+}
+.top{
+    padding-top: 130px;
 }
 
 .img-container{
-    width: 500px;
-    height: 700px;
-    background-color: green;
-    /* test  */
+    position: relative;
 }
+.img-container .img{
+    width: 450px;
+}
+.img-container .hearts{
+    position: absolute;
+    top: 10px;
+    right: 0px;
 
+    padding: 12px;
+
+    font-size: 26px;
+
+    background-color: white;
+}
+.img-container .tag{
+    position: absolute;
+    bottom: 110px;
+
+    padding: 8px 10px;
+
+    font-size: 12px;
+    color: white;
+}
+.img-container .discount{
+    background-color: #ff0000;
+}
+.img-container .sustainability{
+    left: 55px;
+
+    background-color: #008000;
+}
+.img-container .brand{
+    font-size: 12px;
+}
+.img-container .item{
+    font-weight: bold;
+    font-size: 14px;
+}
+.img-container .price{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+.img-container .full-price{
+    font-size: 14px;
+    text-decoration: line-through;
+}
 /* fine main */
+
+
+
+
+
 
 /* footer */
 
