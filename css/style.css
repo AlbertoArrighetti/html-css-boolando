@@ -9,33 +9,47 @@
     margin-left: auto;
     margin-right: auto;
 }
+body{
+    font-family: sans-serif;
+}
 
 
 /* header */
 nav{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    margin-bottom: 60px;
-
+    position: fixed;
+    width: 100%;
+    
     background-color: #ff6900;
 }
 nav .nav-bar{
-    background-color: blue;
-    /* test */
-    width: 1300px;
-
     padding: 30px 0px;
+    margin: 0px 260px;
    
     display: flex;
     justify-content: space-between;
+
 }
-nav .nav-bar .links a{
+nav .nav-bar a{
+    padding: 0px 10px;
+
     color: white;
     text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
 }
+nav .nav-bar .logo{
+    width: 150px;
+}
+nav .nav-bar .icons{
+    color: white;
+}
+
+
 /* fine header */
+
+
+
+
 
 /* main */
 .row{
