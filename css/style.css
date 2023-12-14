@@ -13,16 +13,16 @@ body{
 nav{
     position: fixed;
     width: 100%;
+    z-index: 200;
     
     background-color: #ff6900;
 }
 nav .nav-bar{
-    padding: 30px 0px;
+    padding: 20px 0px;
     margin: 0px 260px;
    
     display: flex;
     justify-content: space-between;
-
 }
 nav .nav-bar a{
     padding: 0px 10px;
@@ -56,17 +56,35 @@ nav .nav-bar .icons{
 .top{
     padding-top: 130px;
 }
-
 .img-container{
     position: relative;
 }
+
+
+
 .img-container .img{
+    position: relative;
+}
+
+.img-container .img .img-1{
     width: 450px;
+}
+.img-container .img .img-2{
+    width: 450px;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.img:hover .img-2{
+    display: inline-block;
 }
 .img-container .hearts{
     position: absolute;
     top: 10px;
     right: 0px;
+    z-index: 5;
 
     padding: 12px;
 
@@ -74,11 +92,18 @@ nav .nav-bar .icons{
 
     background-color: white;
 }
+/* hover hearts */
+.hearts:hover{
+    color: red;
+}
+
+
 .img-container .tag{
     position: absolute;
-    bottom: 110px;
+    z-index: 10;
 
     padding: 8px 10px;
+    bottom: 50px;
 
     font-size: 12px;
     color: white;
@@ -91,6 +116,10 @@ nav .nav-bar .icons{
 
     background-color: #008000;
 }
+.img-container #position-tag{
+    left: 0;
+}
+
 .img-container .brand{
     font-size: 12px;
 }
@@ -116,18 +145,17 @@ nav .nav-bar .icons{
     margin-left: auto;
     margin-right: auto;
 }
-
 footer{
     background-color: #1a1a1a;
+    padding: 30px 0px;
 }
 footer .footer-container{
-    height: 100px;
-    /* test */
-    
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
+    width: 100%;
+
     color: white;
 }
 footer .footer-container .info{
