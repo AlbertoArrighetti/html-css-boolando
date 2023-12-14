@@ -77,7 +77,6 @@ nav .nav-bar .icons{
 .img-container:hover .img-2{
     display: inline-block;
 }
-
 .img-container .hearts{
     position: absolute;
     top: 10px;
@@ -94,8 +93,6 @@ nav .nav-bar .icons{
 .hearts:hover{
     color: red;
 }
-
-
 .img-container .tag{
     position: absolute;
     z-index: 10;
@@ -138,7 +135,7 @@ nav .nav-bar .icons{
 
 /* footer */
 .container{
-    width: 100%;
+    width: 1400px;
     margin-left: auto;
     margin-right: auto;
 }
