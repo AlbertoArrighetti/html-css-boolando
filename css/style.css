@@ -4,11 +4,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-}
 body{
     font-family: sans-serif;
 }
@@ -45,9 +40,6 @@ nav .nav-bar .icons{
     /* to fix  */
 }
 /* fine header */
-
-
-
 
 
 /* main */
@@ -118,21 +110,33 @@ nav .nav-bar .icons{
 /* fine main */
 
 
-
-
-
-
 /* footer */
+.container{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 footer{
     background-color: #1a1a1a;
 }
 footer .footer-container{
     height: 100px;
-    color: white;
-
+    /* test */
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
+    color: white;
+}
+footer .footer-container .info{
+    line-height: 1.8em;
+}
+footer .footer-container .info .info-undertext{
+    font-size: 10px;
+}
+footer .footer-container .social-text{
+    font-size: 10px;
 }
 /* fine footer */
