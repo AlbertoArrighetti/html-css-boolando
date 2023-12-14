@@ -59,9 +59,6 @@ nav .nav-bar .icons{
 .img-container{
     position: relative;
 }
-
-
-
 .img-container .img{
     position: relative;
 }
@@ -77,16 +74,17 @@ nav .nav-bar .icons{
     left: 0;
     z-index: 2;
 }
-.img:hover .img-2{
+.img-container:hover .img-2{
     display: inline-block;
 }
+
 .img-container .hearts{
     position: absolute;
     top: 10px;
     right: 0px;
     z-index: 5;
 
-    padding: 12px;
+    padding: 6px 12px;
 
     font-size: 26px;
 
@@ -119,7 +117,6 @@ nav .nav-bar .icons{
 .img-container #position-tag{
     left: 0;
 }
-
 .img-container .brand{
     font-size: 12px;
 }
@@ -141,7 +138,7 @@ nav .nav-bar .icons{
 
 /* footer */
 .container{
-    max-width: 1400px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -153,8 +150,6 @@ footer .footer-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-    width: 100%;
 
     color: white;
 }
