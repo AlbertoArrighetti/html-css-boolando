@@ -37,7 +37,7 @@ nav .nav-bar .logo{
 }
 nav .nav-bar .icons{
     color: white;
-    /* to fix  */
+    gap: 20px;
 }
 /* fine header */
 
@@ -68,14 +68,15 @@ nav .nav-bar .icons{
 }
 .img-container .img .img-2{
     width: 450px;
-    display: none;
     position: absolute;
     top: 0;
     left: 0;
+    opacity: 0;
     z-index: 2;
 }
-.img-container:hover .img-2{
-    display: inline-block;
+.img-container:hover .img .img-2{
+    opacity: 1;
+    transition: 1s;
 }
 .img-container .hearts{
     position: absolute;
@@ -158,5 +159,11 @@ footer .footer-container .info .info-undertext{
 }
 footer .footer-container .social-text{
     font-size: 10px;
+    margin-bottom: 10px;
+}
+footer .footer-container .social-icons a{
+    text-decoration: none;
+    color: white;
+    padding-left: 3px;
 }
 /* fine footer */
